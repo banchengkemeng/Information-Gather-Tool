@@ -3,10 +3,10 @@
 
 ### 运行效果
 ![run1](img/run1.png)
-![run2](img/run2png)
-![run3](img/run3png)
-![run4](img/run4png)
-![run5](img/run5png)
+![run2](img/run2.png)
+![run3](img/run3.png)
+![run4](img/run4.png)
+![run5](img/run5.png)
 
 ---
 ### 功能
