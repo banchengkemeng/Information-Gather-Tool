@@ -1,0 +1,9 @@
+crawler --资产信息爬取
+assethandle --资产处理(去重+存活验证+HTTP站点识别+获取标题)
+portscan --端口扫描
+cdnident --CDN识别
+wafw00f --WAF识别
+fingerident --指纹识别(CMS、开发语言、WEB框架、WEB服务器)
+pathscan --目录扫描
+apikey.yaml --key配置
+main.py --主程序
