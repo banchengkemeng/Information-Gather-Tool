@@ -15,7 +15,7 @@
 - portscan --端口扫描
   > 通过socket库，扫描存活的tcp端口
 - cdnident --CDN识别
-  > 爬取www.cdnplanet.com,cdn.chinaz.com两个网站的识别结果
+  > 爬取www.cdnplanet.com(这个网站爬起来稍微有些麻烦),cdn.chinaz.com两个网站的识别结果
 - wafw00f --WAF识别
   > 调用wafw00f进行WAF识别
 - fingerident --指纹识别(CMS、开发语言、WEB框架、WEB服务器)
