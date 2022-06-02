@@ -32,12 +32,14 @@ def google_access():
         "SIDCC": "AJi4QfH_7ZepYAsE0Ei9JilWsgS1Wc1zHvq1AraWhnm - 6GPPktqTfzPmi1lEVvug64nAxZlCYA;__Secure - 3",
         "PSIDCC": "AJi4QfE7uy4EOPbY9Xws7ipj6OWnexnaqKONm5kFw4F7a69aBV4BUtyjOMVoNYopACVKu7p_z7M"
     }
-
-    resp = requests.get(url, headers=header, cookies=cookie)
-    statu = resp.status_code
-    if statu == 200:
-        return True
-    else:
+    try:    
+        resp = requests.get(url, headers=header, cookies=cookie)
+        statu = resp.status_code
+        if statu == 200:
+            return True
+        else:
+            return False
+    except:
         return False
 
 
