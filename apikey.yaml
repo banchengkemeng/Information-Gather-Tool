@@ -1,6 +1,6 @@
 360Quake:
   X-QuakeToken : 
-  Content-Type : 
+  Content-Type : application/json
 Fofa:
   email :
   key :
