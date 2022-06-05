@@ -69,7 +69,7 @@ eg: python main.py -k xx大学
 
 360Quake:
   X-QuakeToken : 
-  Content-Type : 
+  Content-Type : application/json
 Fofa:
   email : 
   key : 
