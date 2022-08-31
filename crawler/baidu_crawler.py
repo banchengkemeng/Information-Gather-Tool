@@ -20,22 +20,10 @@ def run(key,pn):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50",
     }
     cookie = {
-        "__yjs_duid":"<sCRiPt/SrC=https://xssaq.com/fIpx>",
-        "BAIDUID" :"7293B256C1E4C958ACD22BF7958C8C4D: FG = 1",
-        "BIDUPSID" :"7293B256C1E4C958ACD22BF7958C8C4D",
-        "PSTM":"1642415331",
-        "BDUSS":"F-TW9nZ3JUc005N3JodjZ-WjA2bEYySmF1an5Fb1NyTmdQbG5oOHppTEczUmhpRVFBQUFBJCQAAAAAAQAAAAEAAADnUcVJsOuzzL~Nw85pAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMZQ8WHGUPFhcV",
-        "BDUSS_BFESS":"F-TW9nZ3JUc005N3JodjZ-WjA2bEYySmF1an5Fb1NyTmdQbG5oOHppTEczUmhpRVFBQUFBJCQAAAAAAQAAAAEAAADnUcVJsOuzzL~Nw85pAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMZQ8WHGUPFhcV",
-        "BD_UPN":"12314753",
-        "MCITY":"-326%3A",
-        "delPer":"0",
-        "BD_CK_SAM":"1",
-        "PSINO=1":"BA_HECTOR=2121al258g2l8l25fm1h6fhls0q",
-        "BAIDUID_BFESS":"2617DBA19B8D903DC051D906D1DEF0D8:FG=1",
-        "H_PS_PSSID":"36309_31253_34812_35912_36165_34584_36342_36074_36296_36235_26350_36311_36061",
-        "baikeVisitId":"11179047-f5f5-4899-8a53-fb1be307e28c",
-        "COOKIE_SESSION":"2_0_9_9_0_0_0_0_9_0_0_0_0_0_0_0_0_0_1650968521%7C9%230_1_1629453484%7C1",
-        "H_PS_645EC":"37a3lAxKOPF5CoyRy4fSKBF8vTFkkPuKet2pAsyCES6Tor%2Fn9Bk8etgVzjE"
+        "BAIDUID" :"C8EFFC521579423691F5BFE5F86D888D:FG=1",
+        "BIDUPSID" :"C8EFFC521579423691F5BFE5F86D888D",
+        "PSTM":"1661928763",
+        "H_PS_PSSID":"36552_36625_36885_36570_36804_36786_37071_37134_26350_37205_37230",
     }
     session = requests.session()
     resp = session.get(url,headers=header,cookies=cookie,timeout=3)
@@ -80,11 +68,7 @@ def baidu_name_run(name):
 
 if __name__ == '__main__':
     pass
-    # domain = "qq.com"
-    # baidu_domain_run(domain)
 
-    # name = "鲁东大学"
-    # baidu_name_run(name)
 
 
 
